@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentoCard_linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/fragmento_noticia_card_imagem"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/fragmento_card_noticia_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_x="127dp"
+        android:layout_y="78dp"
+        android:text="Titutlo"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/fragmento_card_noticia_previa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="137dp"
+        android:textColor="@color/fui_bgEmail"
+        android:textSize="18sp" />
+</LinearLayout>

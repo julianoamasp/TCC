@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textview_fragmentoperfil_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textview_fragmentoperfil_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/fragmentoPerfil_button_alterar_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="atualizar email" />
+
+    <TextView
+        android:id="@+id/textview_fragmentoperfil_apelido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/fragmentoPerfil_button_alterar_apelido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atualizar apelido" />
+
+    <Button
+        android:id="@+id/fragmentoPerfil_button_alterar_senha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="atualizar senha" />
+
+    <Button
+        android:id="@+id/fragmentoPerfil_button_desativar_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="desativar conta" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/fragmentoPerfil_scroll_atualizar_dados_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_fragmentoperfilusuario_sair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair" />
+
+</LinearLayout>

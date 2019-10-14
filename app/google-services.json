@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "80183978339",
+    "firebase_url": "https://projetotccusjt2019.firebaseio.com",
+    "project_id": "projetotccusjt2019",
+    "storage_bucket": "projetotccusjt2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80183978339:android:7effad0eba75da82140b56",
+        "android_client_info": {
+          "package_name": "com.example.games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80183978339-6m0sojb8tlrhpdlso0ientelk91ktlb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.games",
+            "certificate_hash": "f3d62c473478691731c83a593fa16692a0b75a0e"
+          }
+        },
+        {
+          "client_id": "80183978339-bi74co5t8sss7duaccl247oqe9pmigc3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyDC1Vw_yE4wpgbN25jiXRLEDGnsUYxdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80183978339-cdgm5n69o3m7vegl136cqq552pleqqp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

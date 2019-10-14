@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fragmento_atualizar_perfil_textview_apelido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="novo apelido" />
+
+    <EditText
+        android:id="@+id/fragmento_atualizar_perfil_edittext_apelido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/fragmento_atualizar_perfil_button_atualizar_apelido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="atualizar apelido" />
+
+    <TextView
+        android:id="@+id/fragmento_atualizar_perfil_textview_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="novo email" />
+
+    <EditText
+        android:id="@+id/fragmento_atualizar_perfil_edittext_novoemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/fragmento_atualizar_perfil_button_atualizar_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="atualizar email" />
+
+    <TextView
+        android:id="@+id/fragmento_atualizar_perfil_textview_novasenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nova senha" />
+
+    <EditText
+        android:id="@+id/fragmento_atualizar_perfil_edittext_novasenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/fragmento_atualizar_perfil_textview_confirmarnovasenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="confirmar nova senha" />
+
+    <EditText
+        android:id="@+id/fragmento_atualizar_perfil_edittext_confirmarnovasenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/fragmento_atualizar_perfil_textview_confirmarsenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="confirmar senha" />
+
+    <EditText
+        android:id="@+id/fragmento_atualizar_perfil_edittext_senhaatual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/fragmento_atualizar_perfil_button_atualizar_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="atualizar senha" />
+
+    <TextView
+        android:id="@+id/fragmento_atualizar_perfil_textview_excluirconta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="digite a senha para excluir conta" />
+
+    <EditText
+        android:id="@+id/fragmento_atualizar_perfil_edittext_senhaecluirconta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/fragmento_atualizar_perfil_button_atualizar_excluirconta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="excluir conta" />
+
+    <TextView
+        android:id="@+id/fragmento_atualizar_perfil_textview_mensagemdeerro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/fragmento_atualizar_perfil_button_cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancelar" />
+</LinearLayout>
